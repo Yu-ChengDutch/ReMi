@@ -12,15 +12,32 @@
     height: 40vh;
     padding-top:10vh;
     padding-bottom:1vh;    
-    margin-top: 10vh;
+    margin-top: 5vh;
+}
+
+#notification-card { 
+    width: 50vw;
+    height: 2vh;
+    padding-top:1vh;
+    padding-bottom:1vh;
+    text-align: center;
+    font-size: 1vw;    
+    margin-top: 5vh;
 }
 
 .line {
     border-top: 0.5vh solid black;
     width: 40vw;
     margin-left: 5vw;
-    height: 7.5vh;
+    margin-bottom: 7vh;
+    height: 0.5vh;
     text-align: left;
+    /* background-color: green; */
+}
+
+#line-1 {
+    border-top: 0.5vh solid red;
+    z-index: -1;
 }
 
 #top-line {
@@ -40,14 +57,23 @@
 
 /* Notes */
 
-.punctum {
+#punctum {
     width: 4vw;
     height: 4vw;
     margin-left: 5vw;
-    margin-bottom: 2vw;
+    /* margin-top: 2.5vw; */
+    bottom: 5vw;
     background-color: black;    
-    display: inline-block;
     border-radius: 0.5vw;
+    z-index: 5;
+    transition: 0.4s;
+}
+
+#test {
+    width: 4vw;
+    height: 4vw;
+    margin: 0;
+    background-color: black;
 }
 
 /* Button thing */
