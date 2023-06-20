@@ -1,5 +1,7 @@
 // Setting all the lines
 
+let punctum_HTML = "<div class=\"punctum\"></div>";
+
 function setUp() {
     let top_line = document.getElementById('top-line');
     let line_1 = document.getElementById('line-1');
@@ -9,18 +11,11 @@ function setUp() {
     
     let lines = [top_line, line_1, line_2, line_3, line_4];
     
-    top_line.innerText = "Check";
+    // Put a random note somewhere
     
-    document.getElementById('line-1').innerText = "Check";
-    
-    // Check by commenting
-    
-    console.log("Welcome!");
-    
-    // Empty all lines
-    
-    for (i = 0; i < lines.length; i++) {
-        console.log(lines[i]);
-        lines[i].innerHTML = "";
-    }
+    let index = Math.floor(Math.random() * lines.length);
+
+    lines[index].innerHTML = punctum_HTML;
+
+    // Done
 }
