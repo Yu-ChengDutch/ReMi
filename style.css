@@ -1,0 +1,77 @@
+/* Basic notesheet */
+
+.card {
+    background-color: white;
+    border-radius: 5vw; /* 5px rounded corners */
+    border: 1vh solid grey;
+    margin-left: 25vw;
+}
+
+#main-card {    
+    width: 50vw;
+    height: 40vh;
+    padding-top:10vh;
+    padding-bottom:1vh;    
+    margin-top: 10vh;
+}
+
+.line {
+    border-top: 0.5vh solid black;
+    width: 40vw;
+    margin-left: 5vw;
+    height: 7.5vh;
+    text-align: left;
+}
+
+#top-line {
+    border-top: 0.5vh solid white;
+}
+
+/* Clefs */
+
+#clef {
+    border-top-left-radius: 2.5vw;
+    border-bottom-left-radius: 2.5vw;
+    width: 5vw;
+    height: 20vh;
+    background-color: black;    
+    display: inline-block;
+}
+
+/* Notes */
+
+.punctum {
+    width: 4vw;
+    height: 4vw;
+    margin-left: 5vw;
+    background-color: black;    
+    display: inline-block;
+    border-radius: 0.5vw;
+}
+
+/* Button thing */
+
+#button-card {
+    width: 50vw;
+    height: 10vh;
+    padding-top:5vh;
+    padding-bottom:1vh;    
+    margin-top: 10vh;
+}
+
+.button {
+    width: 4vw;
+    height: 2.5vw;
+    margin-left: 2.5vw;
+    text-align: center;
+    padding-top: 1.5vw;
+    background-color: grey;    
+    display: inline-block;
+    border-radius: 0.5vw;
+    transition: 0.5s;
+}
+
+.button:hover {
+    background-color: red;
+    transition: 0.5s;
+}
