@@ -15,5 +15,6 @@ console.log("Welcome!");
 // Empty all lines
 
 for (i = 0; i < lines.length; i++) {
+    console.log(lines[0]);
     lines[0].innerHTML = "";
 }
