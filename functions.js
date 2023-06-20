@@ -8,6 +8,8 @@ let line_4 = document.getElementById('line-4');
 
 let lines = [top_line, line_1, line_2, line_3, line_4];
 
+console.log(top_line);
+
 // Check by commenting
 
 console.log("Welcome!");
