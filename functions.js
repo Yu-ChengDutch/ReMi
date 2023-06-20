@@ -8,7 +8,9 @@ let line_4 = document.getElementById('line-4');
 
 let lines = [top_line, line_1, line_2, line_3, line_4];
 
-console.log(top_line);
+top_line.innerText = "Check";
+
+document.getElementById('line-1').innerText = "Check";
 
 // Check by commenting
 
